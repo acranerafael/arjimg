@@ -40,36 +40,4 @@ Para mais detalhes sobre a licença e permissões de uso, por favor, consulte  [
 
 ---
 
-Agradecemos seu interesse no ARJimg e esperamos que a ferramenta seja de grande utilidade para seus projetos e necessidades de otimização de imagem!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Utilitário de Compressão de Imagens
-
-Este é um utilitário simples para comprimir imagens em um diretório especificado. O programa comprime imagens encontradas em um diretório de entrada e salva as versões comprimidas em um diretório de saída. Ele oferece a opção de redimensionar as imagens e ajustar a qualidade de compressão.
-
-
-
-## Requisitos
-
-- Nenhum requisito adicional além do sistema operacional em que o programa será executado.
-
-## Contribuição
-
-Contribuições são bem-vindas! Abra um *pull request* ou relate problemas (*issues*).
-
-## Licença
-
-Este software é distribuído sob a [Licença Apache-2.0](LICENSE).
-
+*Agradecemos seu interesse no ARJimg e esperamos que a ferramenta seja de grande utilidade para seus projetos e necessidades de otimização de imagem!*
