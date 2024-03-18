@@ -31,12 +31,12 @@ git clone https://github.com/acranerafael/arjimg.git .
 ## Contribuições
 
 Queremos aprimorar o ARJimg e valorizamos suas contribuições! Se você possui ideias ou sugestões que podem aprimorar esta ferramenta, por favor, considere colaborar conosco no projeto. Apesar de o código fonte não estar aberto, seu feedback e sugestões são extremamente importantes para nós. 
-Não hesite em compartilhar suas opiniões abrindo um (*issues*). Estamos ansiosos para ouvir sua opinião!
+Não hesite em compartilhar suas opiniões abrindo um (**issues**). Estamos ansiosos para ouvir sua opinião!
 
 ## Licença
 
-O ARJimg é distribuído sob a (*Licença Apache-2.0*), a qual permite o uso, modificação e distribuição do software de forma gratuita, tanto para fins comerciais quanto não comerciais. 
-Para mais detalhes sobre a licença e permissões de uso, por favor, consulte o link [Licença Apache-2.0](LICENSE).
+O ARJimg é distribuído sob a (**Licença Apache-2.0**), a qual permite o uso, modificação e distribuição do software de forma gratuita, tanto para fins comerciais quanto não comerciais. 
+Para mais detalhes sobre a licença e permissões de uso, por favor, consulte  [Licença Apache-2.0](LICENSE).
 
 ---
 
