@@ -1,6 +1,6 @@
 # ARJimg - Compressão de Imagens
-Bem-vindo ao repositório do ARJimg, um compactador de imagens eficiente desenvolvido em C++. 
-Este projeto visa oferecer uma solução robusta para a compactação de imagens, facilitando a redução do tamanho de arquivos sem perda significativa de qualidade visual. 
+Bem-vindo ao repositório do ARJimg, um compactador de imagens eficiente desenvolvido em C++.
+Este projeto visa oferecer uma solução robusta para a compactação de imagens, facilitando a redução do tamanho de arquivos sem perda significativa de qualidade visual.
 Ideal para desenvolvedores, designers, fotógrafos e qualquer pessoa que precise otimizar o armazenamento e compartilhamento de imagens.
 
 ## Características
@@ -8,6 +8,7 @@ Ideal para desenvolvedores, designers, fotógrafos e qualquer pessoa que precise
 - **Alta Eficiência de Compactação:** Com algoritmos avançados, o ARJimg é capaz de minimizar o tamanho do arquivo mantendo a máxima qualidade visual possível.
 - **Desenvolvido em C++:** Aproveita a eficiência e velocidade de processamento da linguagem C++, garantindo uma operação rápida e segura.
 - **Compactação em Lote:** Oferece a capacidade de processar várias imagens simultaneamente, economizando tempo e esforço dos usuários.
+- **Opções de Linha de Comando Avançadas:** Permite a definição da qualidade de compressão e do fator de redimensionamento diretamente via linha de comando, oferecendo maior controle sobre o processo de compressão.
 
 ## O que é Qualidade de Compressão?
 A qualidade de compressão é um parâmetro que determina o equilíbrio entre o tamanho do arquivo comprimido e a fidelidade visual da imagem. Ela representa a quantidade de detalhes que serão preservados na imagem após a compressão.
@@ -17,6 +18,7 @@ Ao comprimir uma imagem, o algoritmo de compressão reduz a quantidade de dados 
 
 ## Impacto na Qualidade Visual
 - Alta Qualidade (Próximo de 100%): Quanto mais próximo de 100% for o nível de qualidade de compressão, menor será a perda de detalhes visuais. A imagem comprimida será visualmente semelhante à imagem original, mas o tamanho do arquivo será maior.
+
 - Baixa Qualidade (Próximo de 0%): À medida que o nível de qualidade de compressão se aproxima de 0%, a perda de detalhes visuais se torna mais perceptível. A imagem comprimida terá uma qualidade inferior, com artefatos visuais e perda de nitidez, mas o tamanho do arquivo será menor.
 
 ## Escolhendo o Nível de Qualidade
@@ -29,18 +31,23 @@ Para usar este utilitário, siga estas etapas:
 ```bash
 git clone https://github.com/acranerafael/arjimg.git .
 ```
+
 2. Execute o programa em seu terminal ou prompt de comando, fornecendo o caminho para o diretório de entrada contendo as imagens que você deseja comprimir e o caminho para o diretório de saída onde as imagens comprimidas serão salvas.
 ```bash
 ./arjimg pasta_com_as_imagens pasta_que_receberá_as_novas_imagens
 ```
-3. O programa solicitará que você insira a qualidade de compressão desejada (0-100). Você também pode simplesmente pressionar <**Enter**> para usar a qualidade padrão (70).   
+
+3. Para definir a qualidade de compressão e o fator de redimensionamento diretamente na linha de comando, use as opções -q e -r, respectivamente.
+```bash
+./arjimg pasta_com_as_imagens pasta_que_receberá_as_novas_imagens -q 80 -r 0.5
+```
 
 ## Contribuições
-Queremos aprimorar o ARJimg e valorizamos suas contribuições! Se você possui ideias ou sugestões que podem aprimorar esta ferramenta, por favor, considere colaborar conosco no projeto. Apesar de o código fonte não estar aberto, seu feedback e sugestões são extremamente importantes para nós. 
+Queremos aprimorar o ARJimg e valorizamos suas contribuições! Se você possui ideias ou sugestões que podem aprimorar esta ferramenta, por favor, considere colaborar conosco no projeto. Apesar de o código fonte não estar aberto, seu feedback e sugestões são extremamente importantes para nós.
 Não hesite em compartilhar suas opiniões abrindo um (**issues**). Estamos ansiosos para ouvir sua opinião!
 
 ## Licença
-O ARJimg é distribuído sob a **Licença Apache-2.0**, a qual permite o uso, modificação e distribuição do software de forma gratuita, tanto para fins comerciais quanto não comerciais. 
+O ARJimg é distribuído sob a **Licença Apache-2.0**, a qual permite o uso, modificação e distribuição do software de forma gratuita, tanto para fins comerciais quanto não comerciais.
 Para mais detalhes sobre a licença e permissões de uso, por favor, consulte  [Licença Apache-2.0](LICENSE).
 
 ---
